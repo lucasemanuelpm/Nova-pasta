@@ -6,8 +6,8 @@ print("Bem vindo " , nome )
 print("a sua idade é " , idade )
 print( "sua altura é" , altura )
 print(estudante)
-ano_denascimento = 2024 - idade
-print(ano_denascimento)
+ano_denascimento = int(2024 - idade)
+print("seu ano de nascimento é " , ano_denascimento)
 if idade < 18 :
  print("voce é maior de idade")
 else: 
