@@ -7,3 +7,6 @@ cidade = "Paraná "
 #tipos de dados 
 # int, float, textos = strings, bool = true or false
 esta_logado = True
+print (nome)
+nome = 1
+print(nome)
