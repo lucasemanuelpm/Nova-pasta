@@ -21,3 +21,13 @@ print(5 + 2)
 print(10 * 5)
 print(9-3)
 print(10/10)
+
+#concatenação> União dos textos
+#unir cm simnb +
+nomede_usuario = "Lucas"
+frase = "opa" + nomede_usuario+  "tudo bem"
+print(frase)
+#comparações
+maior = 15>2
+menor = 5<3
+menor2 = 9<4
