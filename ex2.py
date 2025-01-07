@@ -5,5 +5,7 @@ print( "sua altura é" , altura )
 idade = input ("qual é a sua idade?")
 print("a sua idade é " , idade )
 estudante = input("você é estudante?")
-if estudante : "sim"
-print( "Otimo continue estudando")
+if estudante == "sim":
+    print("Ótimo! Continue estudando.")
+else:
+    print("poxa que pena estudar é sempre bom") 
