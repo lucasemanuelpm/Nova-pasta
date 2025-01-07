@@ -31,3 +31,7 @@ print(frase)
 maior = 15>2
 menor = 5<3
 menor2 = 9<4
+
+print(maior)
+print(menor)
+print(menor2)
