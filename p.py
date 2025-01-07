@@ -1,3 +1,4 @@
-idade = int(input("qual a sua idade?"))
-anode_nascimento = 2024 - idade
-print("seu ano de nascimento é", anode_nascimento)
+idade = 16
+nome = "lucas"
+frase = ("ola meu nome é"+ nome + "minha idade é" + str(idade))
+print(frase)
