@@ -27,3 +27,11 @@ senha_correta = "12345"
 usuario_bloqueado = False
 acesso_permitido = (senha_inserida == senha_correta) and   (usuario_bloqueado == False)
 print("parabens acesso permitido" ,  acesso_permitido) 
+
+#divisão de tarefas
+conta = 150.00
+pessoas = 3
+valorpor_pessoas = (conta/pessoas)
+divisão_exata = conta%pessoas == 0 
+print(valorpor_pessoas)
+print(divisão_exata)
