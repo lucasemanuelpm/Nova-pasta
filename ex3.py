@@ -25,5 +25,5 @@ print(desconto ,  "aprovado")
 senha_inserida = "12345"
 senha_correta = "12345"
 usuario_bloqueado = False
-acesso_permitido = (senha_inserida == senha_correta) and (usuario_bloqueado == False)
-print("parabens acesso permitido" ,  acesso_permitido)
+acesso_permitido = (senha_inserida == senha_correta) and   (usuario_bloqueado == False)
+print("parabens acesso permitido" ,  acesso_permitido) 
