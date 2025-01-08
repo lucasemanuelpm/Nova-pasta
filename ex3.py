@@ -15,3 +15,9 @@ frequencia_minima = (frequencia>= "80%")
 print("parabens voce passou em notas com :" ,  nota_media)
 print("parabens voce apsssou com uma frequencia de :" , frequencia)
 
+#ofertaespecial
+itens = 8
+valor_total = 120
+desconto = (valor_total>= 100) or (itens>=10)
+print(desconto ,  "aprovado")
+
