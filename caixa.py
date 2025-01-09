@@ -1,10 +1,10 @@
-saque = int(input("Qual O valor que voce deseja sacar"))
-cedulas = 2 , 5 , 10 , 20 , 50 , 100
-cedula_2 = 2
-cedula_5 = 5
-cedula_10 = 10 
-cedula_20 = 20
-cedula_50 = 50
-cedula_100 = 100
-if cedula_100 == 100 :
-    print()
+emprestimo = float(input("digite o valor do empresitmo"))
+renda_mensal = float(input("Digite sua renda mensal: ")) 
+porcentagem_renda = (renda_mensal*0.30)
+parcelas = 12
+valor_parcela = print(emprestimo/parcelas)
+if valor_parcela> porcentagem_renda:
+    print("infelzimente voce nao pode fazer esse emprestimo")
+else :
+    print('otimo voce esta apto ao emprestimo')
+
