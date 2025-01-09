@@ -1,10 +1,11 @@
-emprestimo = float(input("digite o valor do empresitmo"))
+emprestimo = float(input("digite o valor do emprestimo"))
 renda_mensal = float(input("Digite sua renda mensal: ")) 
-porcentagem_renda = (renda_mensal*0.30)
-parcelas = 12
-valor_parcela = print(emprestimo/parcelas)
-if valor_parcela> porcentagem_renda:
-    print("infelzimente voce nao pode fazer esse emprestimo")
-else :
-    print('otimo voce esta apto ao emprestimo')
+parcelas = int(input("deseja pagar em quantas parcelas?"))
+porcentagem_renda = renda_mensal*0.30
+valor_parcela = emprestimo/parcelas
+print(valor_parcela)
+print(porcentagem_renda)
+if valor_parcela >= porcentagem_renda :
+    print("voce nao é digno da parcela")
+
 
