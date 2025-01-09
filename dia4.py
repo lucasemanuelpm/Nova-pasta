@@ -6,3 +6,4 @@ if (idade >=18) :
  print("otimo voce é maior de idade")
 else :
  print("vc ainda nao é maior de idade")
+ 
