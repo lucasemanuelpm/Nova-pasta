@@ -20,5 +20,4 @@ for fruta in frutas :
     if i == 8 :
      break
     print("num for " , i)
-   else :
-    print("va ate o final")
+ 
