@@ -8,3 +8,9 @@ for fruta in frutas :
  print("Fruta:", fruta)
  for i in range (5) :
   print("Num" , i )
+  print(frutas [0])
+ print(frutas [1])
+ #while 
+ contador = 0 
+ while contador < 5 :
+  print("Num while " , contador)
