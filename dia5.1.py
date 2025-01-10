@@ -1,7 +1,7 @@
-pares_impares = int(input("qual numero?"))
 pares = 0
-impares = 0
-for i in range ( 1 , 21):
-     print("Numero",i, "par" or "impar")
-     if impares == 21:
-      break
+impares = 0 
+for i in range( 1, 21) :
+    if i %2 == 0 :
+        print("o numero é par")
+    elif i%3 == 0 :
+        print("o numero é impar")
