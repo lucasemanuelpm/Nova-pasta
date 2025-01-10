@@ -29,5 +29,8 @@ for i in range(10):
     #calcular a eecução de 1 a N
     N = int(input("qual é o N"))
     for i in range(1 , N +1):
-      resultado = N*i
+      resultado = N * i
       print(resultado)
+      
+    
+    
