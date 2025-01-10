@@ -6,3 +6,5 @@
 frutas = ["maça", "laranja", "banana"]
 for fruta in frutas :
  print("Fruta:", fruta)
+ for i in range (5) :
+  print("Num" , i )
