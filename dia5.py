@@ -3,6 +3,6 @@
 #ou n é uma condição
 #For item_individual in lista
 # bloco repeitdo N vezes
-frutas = ("maça", "laranja", "banana")
+frutas = ["maça", "laranja", "banana"]
 for fruta in frutas :
- print("Fruta:", frutas)
+ print("Fruta:", fruta)
