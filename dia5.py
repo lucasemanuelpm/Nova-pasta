@@ -26,3 +26,7 @@ for i in range(10):
     if i == 8 :
      continue
     print("num for " , i)
+    #calcular a eecução de 1 a N
+    N = int(input("qual é o N"))
+    for N in range(1):
+      print("DE 1 ate" , N)
