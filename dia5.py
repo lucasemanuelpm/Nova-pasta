@@ -20,4 +20,9 @@ for fruta in frutas :
     if i == 8 :
      break
     print("num for " , i)
- 
+ #break para o loop
+ #continue pula a execução
+for i in range(10):
+    if i == 8 :
+     continue
+    print("num for " , i)
