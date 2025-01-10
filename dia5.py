@@ -15,3 +15,8 @@ for fruta in frutas :
  while contador < 5 :
    print("Num while " , contador)
    contador  +=  1
+   # um loop com uma condição mal definida = loop infinito = bug
+   for i in range(10):
+    if i == 8 :
+     break
+    print("num for " , i)
